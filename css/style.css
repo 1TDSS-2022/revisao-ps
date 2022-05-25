@@ -7,3 +7,34 @@
 
 }
 
+.cabecalho{
+    display: flex;
+    background-color: #095050;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 1rem;
+
+}
+
+.menu > a{
+    text-decoration: nome;
+    font-size: 1.688rem;
+    color: #fff;
+    pad: 2.5rem 0;
+}
+.menu > a:hover{
+     background-color: brown;;
+}
+
+.active{
+    background-color: dodgerblue;
+
+}
+
