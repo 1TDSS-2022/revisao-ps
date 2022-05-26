@@ -1,0 +1,38 @@
+*{
+    
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex ;
+    background-color: black;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center; /* alinha na vertical */      
+
+}
+
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 2rem;
+    }
+
+.menu>a{
+  text-decoration: none;  
+  color: aliceblue;
+  font-size: 1.688rem;
+  padding: 2.5rem 0;  
+  
+}  
+
+
+.menu > a:hover{
+    background-color: brown;
+}
+
+
+.active{
+    background-color: dodgerblue;
+}
