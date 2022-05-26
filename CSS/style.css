@@ -1,0 +1,42 @@
+*{
+    font-size: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #090505;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 2rem;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.688rem;
+}
+
+.active{
+    background-color: dodgerblue;
+    padding: 2.5rem 0;
+    
+}
+
+.menu > a:hover {
+    background-color: brown;
+}
+
+
+
+/* Pixel = Medida fixa */
+/* REM e EM = Estas medidas sempre vão se basear nos elementos pais para estabelecer o seu valor. */
+/* REM = sempre vai ter como BASE o elemento mais externo, logo, o HTML. */
+/* EM = sempre vai olhar para o elemento mais próximo. */
