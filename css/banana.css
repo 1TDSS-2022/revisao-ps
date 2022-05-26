@@ -1,0 +1,31 @@
+*{
+    font-size: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #f72d2d;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 2rem;
+    
+}
+
+.menu > a{
+    text-decoration: none;
+    font-size: 1.688rem;
+    color: #fff;
+    padding: 2.5rem 0;
+}
+
+.menu > a:hover{
+    background-color: green;
+}
