@@ -1,0 +1,35 @@
+.cabecalho{
+    display: flex;
+    background-color:#090505;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 2em;
+    padding: 2.5rem 0;
+}
+
+.menu > a{
+    text-decoration: none;
+    font-size: 1.688rem;
+    color: #ffffff;
+    padding: 2.5rem 0;
+}
+
+.menu > a:houver{
+    background-color: brown;
+}
+
+.active{
+    background-color: dodgerblue;
+}
+
+/*
+PIXEL = MEDIDA FIXA
+REM E EM = ESTAS MEDIDAS SEMPRE VÃO SE BASEAR NOS ELEMENTOS EXTERNOS PAIS PARA ESTABELECER O SEU VALOR.
+REM = SEMPRE VAI TER COMO BASE O ELEMENTO MAIS EXTERNO, OU SEJA, O HTML.
+*/
