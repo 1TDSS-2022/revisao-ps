@@ -1,0 +1,45 @@
+
+body{
+    background-color: aqua;
+}
+
+*{
+    font-size: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #034617;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 1rem;
+}
+
+.menu > a{
+    text-decoration: none;
+    font-size: 1.688rem;
+    color: #fff;
+    padding: 2.5rem 0;
+}
+
+.menu > a:hover{
+    background-color: red;
+}
+
+.active{
+    background-color: dodgerblue;
+}
+
+.titulo{
+    font-size: 35px;
+}
