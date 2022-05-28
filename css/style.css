@@ -1,0 +1,28 @@
+.cabecalho {
+    display: flex;
+    background-color: rgb(17, 8, 8);
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    column-gap: normal;
+    gap: 1rem;
+}
+
+.menu > a {
+    text-decoration: none;
+    font-size: 1.688rem;
+    color: #fff;
+    padding: 2.4rem 0;
+}
+
+.menu > a:hover {
+   background-color: rgb(145, 97, 119);
+}
+
+.active{
+    background-color: dodgerblue;
+}
