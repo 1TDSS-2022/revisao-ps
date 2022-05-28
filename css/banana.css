@@ -29,3 +29,7 @@
 .menu > a:hover{
     background-color: green;
 }
+
+h1,h2,h3{
+    background-color: aqua;
+}
