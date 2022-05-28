@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <script src="js/script.js" defer></script>
+    
     <title>REVISÃO</title>
 </head>
 <body>
@@ -15,24 +18,26 @@
             <h1 class="titulo">REVISÃO</h1>
             <!-- nav>a*3[href="#"]{Exemplo-1} -->
             <nav class="menu">
-                <a  class="active" href="#">Exemplo-1</a>
+                <a href="#" class="active">Exemplo-1</a>
                 <a href="#">Exemplo-2</a>
                 <a href="#">Exemplo-3</a>
             </nav>
-            <form  class="cadastro" action="index.html" method="get">
+
+            <form class="cadastro" action="index.html" method="get">
                 <fieldset>
                     <legend>NEWSLETTER</legend>
                     <div>
-                        <input type="text" name="nmUser" id="nmUserId" placeholder="Nome">
+                        <input type="text" name="nmUser" id="nmUserId" placeholder="Nome" required  oninvalid="this.setCustomValidity('Por favor preencha o campo!')">
                     </div>
                     <div>
-                        <input type="email" name="emailUser" id="emailUserId" placeholder="Email">
+                        <input type="email" name="emailUser" id="emailUserId" placeholder="Email"  required oninvalid="this.setCustomValidity('Digite um email valido ')">
                     </div>
                     <div>
                         <input type="button" id="btnEnviar" value="ENVIAR">
                     </div>
                 </fieldset>
             </form>
+            
         </header>
 
 
