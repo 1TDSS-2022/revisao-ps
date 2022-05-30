@@ -8,7 +8,7 @@ const botaoSubmit = document.getElementById('btnEnviar')
 // E RECUPERAR OS CAMPOS E REALIZAR UMA VALIDAÇÃO NAS INFORMAÇÕES NELES CONTIDAS.
 botaoSubmit.addEventListener("click", ()=>{
     //RECUPERAR OS CAMPOS PARA VALIDAÇÃO
-    //UTILIZANDO querySelectorAll para recuperar vários elementos no HTML.
+    //UTILIZANDO querySelectorAll para recuperar vários elementos no HTML
     const campos = document.querySelectorAll("input[type='text'], input[type='email']")
 
     //CRIANDO UMA ESTRUTURA PARA REALIZAR A LEITURA
